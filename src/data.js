@@ -1,31 +1,31 @@
 const introInfo = {
-    name: 'Emre COŞKUNÇAY',
-    title: 'Full Stack Developer',
-    location: 'Ankara, Turkey',
+    name: 'Juan Esquivel Méndez',
+    title: 'Desarrollador',
+    location: 'Progreso, Yucatán',
     description: '<strong>Turpis, sit amet iaculis dui consectetur at.</strong> Cras sagittis molestie orci. <strong>Suspendisse ut laoreet mi</strong>. Phasellus eu tortor vehicula, blandit enim eu, auctor massa. Nulla ultricies tortor dolor, sit amet suscipit enim <strong>condimentum id</strong>. Etiam eget iaculis tellus. Varius sit amet.',
-    image: 'ec.jpg',
+    image: 'foto.jpg',
 }
 
 //dynamic icon
 const socialMediaInfo = [{
         name: 'linkedin',
-        link: 'https://www.linkedin.com/in/coskuncayemre/',
-        username: 'coskuncayemre',
-        displayName: 'linkedin/coskuncayemre'
+        link: 'https://www.linkedin.com/in/ctheundertaker0/',
+        username: 'theundertaker0',
+        displayName: 'linkedin/theundertaker0'
     },
 
     {
         name: 'github',
-        link: 'https://github.com/coskuncayemre',
-        username: 'coskuncayemre',
-        displayName: 'github/coskuncayemre'
+        link: 'https://github.com/theundertaker0',
+        username: 'theundertaker0',
+        displayName: 'github/theundertaker0'
     },
-    // {
-    //     name: 'globe',
-    //     link: 'http://localhost:8080',
-    //     username: 'coskuncayemre',
-    //     displayName: 'emrecoskuncay.com'
-    // },
+     {
+         name: 'twitter',
+         link: 'https://twitter.com/theundertaker0',
+         username: 'theundertaker0',
+         displayName: 'twitter/theundertaker0'
+     },
     // {
     //     name: 'stack-overflow',
     //     link: 'http://localhost:8080',
@@ -38,91 +38,63 @@ const socialMediaInfo = [{
 const contactInfo = [
     {
         name: 'envelope',
-        context: 'emrecoskuncay@gmail.com',
+        context: 'amadeusdigital@gmail.com',
         size: '20px',
         style: "font-size:20px;margin-right: 10px;",
-        link: 'mailto:emrecoskuncay@gmail.com'
+        link: 'mailto:amadeusdigital@gmail.com'
     },
     {
         name: 'phone-square',
-        context: '+905542694056',
+        context: '9996569317',
         size: '23px',
         style: "font-size:23px;margin-right: 10px;",
-        link: 'tel:+905542694056'
+        link: 'tel:9996569317'
     },
 ]
 
 const summaryInfo = 
-    'Hello, It\'s Emre from Ankara,Turkey.I have +2 years of experience with Vue.JS, .NET Core, Docker, Kubernetes with a focus on RestAPIs, MVC and micro-services.My priority is to improve reusability and write generic code. In my social life, I\'m a backpacker.I have visited 22 countries and I am excitedly waiting for this number to increase. In addition, I enjoy talking about new startup ideas.'
+    'Desarrollador de aplicaciones web, móviles y de escritorio en diferentes tecnologías tales como: Laravel, Flutter, Angular, Bootstrap y Vue entre otras.'
 
 
 //desc v-html 
 const experinceInfo = [
     {
-        workAt: 'Aselsan',
-        position: 'Software Engineer',
-        duration: 'Dec 2019 – Present',
-        description: 'Work as a full stack software engineer.',
-        techs: ["Vue.JS", ".NET Core", "Docker", "Kubernetes", "PostgreSQL"]
+        workAt: 'Dirección de estrategia de datos de Gobierno de Yucatán',
+        position: 'Desarrollador',
+        duration: 'Nov 2020 – Presente',
+        description: 'Desarrollador de diversos aplicativos con múltiples tecnologías tales como: Angular, Vue.js, Phalcon y Laravel. También destacar la implementación de servicios, contenedores e imágenes de Docker en proyectos recientes así como el manejo de Referencias Geo espaciales y la manipulación y visualización de capas y estilos de geoserver así como archivos kml, geojson y shape.',
+        techs: ["PHP","Javascript","Postgresql","Phalcon", "Laravel"]
     },
     {
-        workAt: 'Aselsan (Intern)',
-        position: 'Software Engineer',
-        duration: 'Jul 2019 - Sep 2019',
-        description: 'Developed desktop application, wrote relevant documents and prepared unit tests.Wrote requirements documents, project definition documents and test procedures.',
-        techs: ["Java","JUnit","SQL"]
+        workAt: 'Edumatics',
+        position: 'Lider de proyectos de desarrollo',
+        duration: 'May 2019 - Jun 2020',
+        description: 'Lider de proyectos de desarrollo web en diversas tecnologías tales como: Laravel, Angular y Node, utilizando metologías ágiles (SCRUM) para el desarrollo de proyectos, entre mis funciones se encontraban, generación de historias de usuarios, backlogs, QA, etc.',
+        techs: ["PHP","Javascript","Mysql","HTML5","CSS3", "Laravel"]
     },
     {
-        workAt: 'Innova (Intern)',
-        position: 'Full Stack Developer',
+        workAt: 'Contigo Systems',
+        position: 'Desarrollador Sr.',
         duration: 'Jun 2018 – Aug 2018',
-        description: 'Took part in the development team of Public Wi-Fi project.Designed simple welcome page.',
-        techs: ["NodeJS"]
+        description: 'Desarrollador Sr. en proyectos de aplicaciones web y móvil principalmente utilizando las tecnologías de .net, Kotlin y SQL Server, entre los recursos utilizados en esta etapa destaca el uso de Stored Procedures en bases de datos y la generación de apis de consumo en aplicaciones móviles.',
+        techs: [".NET", "Html5", "Bootstrap", "SQL Server", "Javascript"]
     },
-    {
-        workAt: 'DüğünSitemiz',
-        position: 'Founder',
-        duration: 'Jun 2016 – Dec 2019',
-        description: 'DüğünSitemiz is a special website project for couples to marry. This project aims to remove couples RSVP difficulties. It is our honor to make better their happiest day of life.',
-        techs: ["Python", "Django", "MongoDB"]
-    },
-    {
-        workAt: 'Estiva Werbeagentur,Austria',
-        position: 'Freelance Web Developer',
-        duration: 'Jan 2018 – Aug 2018',
-        description: '',
-        techs: ["Wordpress", "HTML/CSS"]
-    },
-    {
-        workAt: 'Akman TZOB Hotel,Turkey',
-        position: 'Social Media Manager',
-        duration: 'Dec 2017 – Sep 2018',
-        description: '',
-        techs: ['Adobe Illustrator']
-    }
 ]
 
 const educationInfo = [
     {
-        school: 'Hacettepe University',
-        location: 'Ankara,Turkey',
-        title: 'MSc in Data Engineering',
-        duration: '2021 – Current',
-        description: '',
+        school: 'Universidad Interamericana para el Desarrollo',
+        location: 'Mérida, Yucatán',
+        title: 'Maestría en Tecnologías de la información',
+        duration: '2010 -2012',
+        description: 'Título y Cédula',
     },
     {
-        school: 'Hacettepe University',
-        location: 'Ankara,Turkey',
-        title: 'BSc in Computer Science',
-        duration: '2015 – 2020',
-        description: '<b>GPA:</b> 3.38/4.00',
-    },
-    {
-        school: 'The English Studio Language School',
-        location: 'London,UK',
-        title: 'Student',
-        duration: 'Aug 2018 – Oct 2018',
-        description: '',
+        school: 'Instituto Tecnológico Superior Progreso',
+        location: 'Progreso, Yucatán',
+        title: 'Licenciado en Informática',
+        duration: '2000 – 2005',
+        description: 'Titulación por examen EGEL con desempeño sobresaliente',
     },
 ]
 
@@ -155,16 +127,16 @@ const volunteerInfo = [
 
 const certificateInfo = [
     {
-        organisation: 'Red Hat',
-        title: 'Red Hat Certified System Administrator RH124',
-        duration: 'Feb,2021',
-        description: '',
+        organisation: 'Google',
+        title: 'Introducción al Desarrollo Web',
+        duration: 'Jul,2020',
+        description: 'ID de la credencial 9Q7 A79 82F',
     },
     {
-        organisation: 'KOSGEB',
-        title: 'Entrepreneurship Certificate',
-        duration: 'Jun,2019',
-        description: '',
+        organisation: 'CertiProf',
+        title: 'Cyber Security Foundation Professional Certificate',
+        duration: 'Ene,2021',
+        description: 'ID de la credencial 32021',
     },
 ]
 
@@ -217,45 +189,40 @@ const skillInfo = [
         rate: 65,
     },{
         name: 'Flutter',
-        rate: 78,
+        rate: 80,
     }, 
     {
         name: 'VueJS',
-        rate: 90,
+        rate: 75,
     },
     {
         name: 'Docker',
-        rate: 85,
+        rate: 75,
     },
     {
-        name: 'HTML/CSS',
+        name: 'Laravel (php)',
         rate: 85,
     },
     
 ]
 
-const otherSkillInfo = ['Kubernetes','Nginx','Git','WebGL','MVC','Bootstrap','Jira','TFS']
+const otherSkillInfo = ['TypeScript', 'phalcon', 'geoserver', 'Bootstrap']
 
-const proSkillInfo = ['Leadership','Effective communication','Team player','Strong problem solver',]
+const proSkillInfo = ['Liderazgo','Trabajo en Equipo','Autodidacta']
 
 // 0,1,2,3,4,5
 const languageInfo = [{
-        name: 'Turkish',
+        name: 'Español',
         rate: 5,
-        level: 'Native',
+        level: 'Nativo',
     },
     {
-        name: 'English',
+        name: 'Ingles',
         rate: 4,
         level: 'Int',
     },
-    {
-        name: 'German',
-        rate: 1,
-        level: 'Ele',
-    }
+  
 ]
-
 
 
 const interestInfo = [{

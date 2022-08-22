@@ -3,7 +3,7 @@
     <div class="main-page-inner mx-auto text-start bg-white shadow-lg">
         <!-- <button class="btn" @click="exportPdf()" v-if="downloadButtonVisible">Export PDF</button> -->
         <Intro :introInfo="data.introInfo" :contactInfo="data.contactInfo" :socialMediaInfo="data.socialMediaInfo" />
-        <div class="p-5">
+        <div class="px-5 py-3">
             <Summary :summaryInfo="data.summaryInfo" />
             <div class="row">
                 <div class="col-lg-8">
@@ -13,7 +13,7 @@
                     <Education :educationInfo="data.educationInfo" />
                     <Skill :skillInfo="data.skillInfo" :otherSkillInfo="data.otherSkillInfo" :proSkillInfo="data.proSkillInfo" />
                     <!-- <Language :languageInfo="data.languageInfo" /> -->
-                    <Interest :interestInfo="data.interestInfo" />
+                   <!--  <Interest :interestInfo="data.interestInfo" /> -->
                     <Certificate :certificateInfo="data.certificateInfo" />
                 </div>
             </div>
@@ -22,7 +22,7 @@
                     <Language :languageInfo="data.languageInfo" />
                 </div>
                 <div class="col-lg-8">
-                    <Volunteer :volunteerInfo="data.volunteerInfo" />
+                   <!--  <Volunteer :volunteerInfo="data.volunteerInfo" /> -->
                 </div>
             </div>
         </div>

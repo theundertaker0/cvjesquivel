@@ -1,6 +1,6 @@
 <template>
 <section class="mb-5">
-    <h3 class="section-title">Summary</h3>
+    <h3 class="section-title">Resumen</h3>
     <span>{{summaryInfo}}</span>
 </section>
 </template>
