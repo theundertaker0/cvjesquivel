@@ -2,7 +2,7 @@
 <section class="row pt-5">
     <div class="col-md-4">
         <div class="profile-pic">
-            <img :src="getProfileImage()" alt="">
+            <img :src="getProfileImage()" alt="" @mouseover="hoverOver" @mouseout="mouseOut" :class="classes">
         </div>
     </div>
     <div class="col-md-7">
@@ -51,9 +51,18 @@ export default {
             type: Object
         }
     },
+    data: () => ({
+        classes: []
+    }),
     methods: {
         getProfileImage() {
             return require("../assets/images/" + this.introInfo.image)
+        },
+        hoverOver() {
+            this.classes = ['zoom', 'transition'];
+        },
+        mouseOut() {
+             this.classes = ['zoom'];
         }
     },
 
@@ -61,5 +70,20 @@ export default {
 </script>
 
 <style>
-
+.zoom {
+    width: 350px;
+    height: 200px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
 </style>
